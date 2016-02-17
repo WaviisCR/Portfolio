@@ -1,1 +1,162 @@
 /* Inserta tu codigo CSS aqui */
+/* Inserta tu codigo CSS aqui */
+.navbar{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+}
+
+nav ul li {
+    margin-right: 14px;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px; 
+}
+
+.hero-image{
+    background-image: url(../img/header.jpg);
+    min-height: 100vh !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    font-size: 60px
+}
+hr{
+    border: 2px solid #F05F40; 
+    width: 5%;
+}
+.subtitle{
+    font-size: 15px
+}
+.btn-conoce{
+    background-color: #F05F40;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 1.5%;
+}
+
+
+/* Containers */
+@media only screen and (min-width: 768px) {
+  .container-xs,
+  .container-sm,
+  .container-md,
+  .container-lg{
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 0 auto;
+  }
+
+  .container-xs {
+    width: 508px;
+  }
+
+  .container-sm {
+    width: 748px;
+  }
+
+  .container-md {
+    width: 968px;
+  }
+  .container-lg {
+    width: 1168px;
+  }
+}
+
+/*------------*/
+.navbar-toggle .icon-bar{
+  background-color: white;
+}
+
+.header.active .navbar-toggle .icon-bar{
+  background-color: black;
+}
+
+.navbar-brand{
+  color: white;
+  padding-top: 15px;
+}
+.navbar-brand:hover{
+  color: #0dc0c0;
+}
+
+.header.active .navbar-brand{
+  color: black;
+}
+
+.header.active .navbar-brand:hover{
+  color:   #0dc0c0;
+}
+
+
+.navbar-nav > li > a{
+  color :white;
+}
+
+.navbar-nav > li > a:hover{
+  color: #0dc0c0;
+}
+
+.header.active .navbar-nav > li > a{
+  color: black;
+}
+
+.header.active .navbar-nav > li > a:hover{
+  color: #0dc0c0;
+}
+
+/* Menu active */
+.header.active {
+    background-color: #f7f7f7;
+    color: black;
+    height: 70px;
+    z-index: 1000;
+    webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-transform: translateZ(0);
+}
+
+
+@media (max-width: 320px) {
+    .header{
+      background-color: #f7f7f7;
+      color: black;
+    }
+
+    .header a{
+      color: black;
+    }
+
+    .header.active{
+      background-color: #f7f7f7;
+      color: black;
+    }
+
+    .header.active a{
+      color: black
+    }
+
+    .navbar-toggle .icon-bar {
+      background-color: black;
+    }
+
+    .navbar-collapse{
+      background-color: #f7f7f7;
+      color: black;
+    }
+
+    .navbar-nav > li > a {
+      color: black;
+    }
+}

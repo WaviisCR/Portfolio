@@ -1,0 +1,217 @@
+/* Font weight */
+strong { 
+	font-weight: 600; 
+}
+.f-600 {
+	font-weight: 600;
+}
+.f-400 {
+	font-weight: 400;
+}
+
+/* Paddings */
+.pd-0{
+	padding: 0;
+}
+.pd-5 {
+	padding: 5%;
+}
+.pd-10 {
+	padding: 10%;
+}
+.pt-0 {
+	padding-top: 0%;
+}
+.pt-3{
+	padding-top: 3%;
+}
+.pt-4{
+	padding-top: 4%;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pt-10{
+	padding-top: 10%;
+}
+.pt-23{
+	padding-top: 23%
+}
+
+.pb-3{
+	padding-bottom: 3%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.pb-10{
+	padding-bottom: 10%;
+}
+.pl-0{
+	padding-left: 0px;
+}
+.pr-4{
+	padding-right: 4%;
+}    
+    
+.pl-4{
+	padding-left: 4%;
+}
+.pl-5{
+	padding-left: 5%;
+}
+.pl-10{
+	padding-left: 10%;
+}
+.pl-12{
+	padding-left: 12%;
+}
+.pb-1{
+	padding-bottom: 1%;
+}
+.pr-0{
+	padding-right: 0px;
+}
+.pr-3{
+	padding-right: 3%;
+}
+.pr-5{
+	padding-right: 5%;
+}
+.pr-10{
+	padding-right: 10%;
+}
+.mgb-5{
+	margin-bottom: 5%
+}
+.mgb-6{
+	margin-bottom: 6%
+}
+.mgb-10{
+	margin-bottom: 10%
+}
+.mgt-1{
+	margin-top: 1%
+}
+.mgt-3{
+	margin-top: 3%
+}
+.mgt-5{
+	margin-top: 5%
+}
+.mgt-6{
+	margin-top: 6%
+}
+.mgb-3{
+	margin-bottom: 3%
+}
+.mb-15{
+	margin-bottom: 15%
+}
+.mgb-2{
+	margin-bottom: 2%
+}
+.mt-3{
+	margin-top: 3px;
+}
+.mgt-15{
+	margin-top: 15px;
+}
+.mgb-15{
+	margin-bottom: 15px;
+}
+.mg-0{
+	margin: 0;
+}
+.mg-10{
+	margin: 10px;
+}
+.mg-2{
+	margin: 2%;
+}
+.w-100{
+	width: 100%;
+}
+
+.ph-14{
+	padding-right: 14px;
+	padding-left: 14px;
+}
+
+.pv-30{
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.lh-1.2{
+	line-height: 1.2;
+}
+.lh-1.5{
+	line-height: 1.5;
+}
+.lh2{
+	line-height: 2.0
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+
+.text-white{
+	color: white;
+}
+.text-gray{
+	color: #888;
+}
+
+.text-green{
+ 	color: #0dc0c0;
+}
+
+.active {
+	color: #0dc0c0;
+}
+
+.a-none-decoration{
+	text-decoration: none;
+}
+.bg-gray{
+	background-color: rgb(244, 244, 244);
+}
+.bg-gray-black{
+	background-color: #333333
+}
+.bg-img-block {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+.text-size{
+	font-size: 12px
+}
+.font-icon{
+	font-size: 50px
+}
+.text-size2{
+	font-size: 20px;
+}
+.text50{
+	font-size: 50px;
+}
