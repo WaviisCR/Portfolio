@@ -1,0 +1,24 @@
+/*About*/
+.navbar-custom {
+    margin-bottom: 0;
+}
+.bckg-pink{
+       background-color: #f2755A;
+ 
+}
+.bckg-red{
+    background-color: #F05F40;
+}
+
+
+/*COMIENZO --> Mis Trabajos - Footer -> Reina*/
+.mistrabajos-section img {
+    width: 100%;
+}
+.padding-0 div {
+    padding: 0%!important;
+}
+
+/*FINAL --> Mis Trabajos - Footer -> Reina*/
+
+
