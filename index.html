@@ -30,12 +30,13 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="js/modernizr.custom.js"></script>
 
 </head>
 
 <body>
     <!-- Inserta tu codigo aqui -->
-    <nav class="navbar navbar-fixed-top nav-header">
+    <nav id="menu-scroll" class="navbar navbar-fixed-top nav-header">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -125,7 +126,7 @@
             <div class = "row text-center">
                <div class = "col-md-offset-3 col-md-6 txt-w">
                    <h2>Sobre mi</h2>
-                   <hr>
+                   <hr class="abt-hr">
                    <p>Soy egresada de Laboratoria, salí con el titulo de Fronted developer jr, desarrollo paginas web en HTML/CSS/JavaScrip. Soy creativa, inteligente y alegre, cosa que transmito en cada una de las webs que desarrollo.</p>
                </div> 
             </div>
@@ -134,34 +135,42 @@
     <section class="">
         <div class="container-fluid pb-5 pt-5">
                 <div class="row text-center">
-                    <div class="col-md-offset-2 col-md-8">
+                    <div class="col-md-offset-1 col-md-10">
                         <h2>Servicios</h2>
                         <hr>
                         <div class="row">
                             <div class="col-md-3">
-                               <div class="pt-23">
-                                   <i  class = "fa fa-diamond"> </i>
+                               <div class="pt-20">
+                                   <div class="hi-icon-effect-3 hi-icon-effect-3b">
+                                   <a href="#" class="hi-icon fa fa-diamond fa-5x"></a>
+                                   </div>
                                    <h3>Desarrollo de plantillas</h3>
                                    <p>Desarrollo plantillas a medida con HTML5/CSS3/JavaScript</p>
                                </div>
                             </div>
                             <div class="col-md-3">
-                               <div class="pt-23">
-                                   <i class="fa fa-paper-plane"></i>
+                               <div class="pt-20">
+                                   <div class="hi-icon-effect-3 hi-icon-effect-3b">
+                                   <a href="#" class="hi-icon fa fa-paper-plane fa-5x"></a>
+                                   </div>
                                    <h3>Campañas de mailing</h3>
                                    <p>Desarrollo plantillas para campañas por correo</p>
                                </div>
                             </div>
                             <div class="col-md-3">
-                               <div class="pt-23">
-                                   <i class="fa fa-newspaper-o"></i>
+                               <div class="pt-20">
+                                   <div class="hi-icon-effect-3 hi-icon-effect-3b">
+                                   <a href="#" class="hi-icon fa fa-newspaper-o fa-5x"></a>
+                                   </div>
                                    <h3>Full Websites</h3>
                                    <p>Desarrollo Websites completos y dinámicos</p>
                                </div>
                             </div>
                             <div class="col-md-3">
-                               <div class="pt-23">
-                                   <i class="fa fa-heart"></i>
+                               <div class="pt-20">
+                                   <div class="hi-icon-effect-3 hi-icon-effect-3b">
+                                   <a href="#" class="hi-icon fa fa-heart fa-5x"></a>
+                                   </div>
                                    <h3>Aplicacines Android</h3>
                                    <p>Desarrollo aplicaciones android listas para subir a la tienda</p>
                                </div>
@@ -175,53 +184,54 @@
     
       <section id = "Trabajos" class = "mistrabajos-section">
         <div class = "container-fluid">
-            <div class = "row padding-0">
+            <div class = "row padding-0 margin-15">
                <div class = "col-md-4 col-sm-12">
-                   <img src="img/portfolio/1.jpg"></img>
+                   <a><img src="img/portfolio/1.jpg"></img></a>
                </div>
                <div class = "col-md-4 col-sm-12">
-                   <img src="img/portfolio/2.jpg"></img>
+                   <a><img src="img/portfolio/2.jpg"></img></a>
                </div>
                <div class = "col-md-4 col-sm-12">
-                   <img src="img/portfolio/3.jpg"></img>
+                   <a><img src="img/portfolio/3.jpg"></img></a>
                </div>
             </div>
-            <div class = "row padding-0">
+            <div class = "row padding-0 margin-15">
                 <div class = "col-md-4 col-sm-12">
-                   <img src="img/portfolio/4.jpg"></img>
+                   <a><img src="img/portfolio/4.jpg"></img></a>
                </div>
                <div class = "col-md-4 col-sm-12">
-                   <img src="img/portfolio/5.jpg"></img>
+                   <a><img src="img/portfolio/5.jpg"></img></a>
                </div>
                <div class = "col-md-4 col-sm-12">
-                   <img src="img/portfolio/6.jpg"></img>
+                   <a><img src="img/portfolio/6.jpg"></img></a>
                </div>
             </div>
         </div>
     </section>
     <section class = "github-section">
         <div class = "container-fluid">
-            <div class = "row">
+            <div class = "row text-center">
                 <h3>Si quieres saber más de mi proyecto revisa mi GitHub</h3>
-                <div class = "button-github">VER MI GITHUB!</div>
+                <button class="button-github">VER MI GITHUB!</button>
+               
             </div>
         </div>
     </section>
     <footer>
-        <div class = "container">
-            <div class = "row">
+        <div class = "container-md">
+            <div class = "row text-center">
                 <h3>CONTÁCTAME</h3>
                 <hr>
-                <p>¿Listo para empezar tu siguiente proyecto? ¿Te gusta lo que has visto? Genial, dame una llamada o envíame un correo y te responderé lo más rápido que pueda!</p>
+                <p>¿Listo para empezar tu siguiente proyecto? ¿Te gusta lo que has visto? Genial, dame una llamada o<br>envíame un correo y te responderé lo más rápido que pueda!</p>
             </div>
-            <div class = "row">
-                <div class = "col-6">
+            <div class = "row text-center">
+                <div class = "col-md-6 phone">
                     <i class="fa fa-phone"></i>
                     <h5>123-456-6789</h5>
                 </div>
-                <div class = "col-6">
+                <div class = "col-md-6 email">
                     <i class="fa fa-envelope-o"></i>
-                    <h5>katy@laboratoria.la</h5>
+                    <h5><span style="color:#F05F40">katy@laboratoria.la</span></h5>
                 </div>
             </div>
         </div>
@@ -242,7 +252,30 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+    <script src="js/app.js"></script>
+    
+    <script>
+			var hash = window.location.hash,
+				current = 0,
+				demos = Array.prototype.slice.call( document.querySelectorAll( '#codrops-demos > a' ) );
+			
+			if( hash === '' ) hash = '#set-1';
+			setDemo( demos[ parseInt( hash.match(/#set-(\d+)/)[1] ) - 1 ] );
 
+			demos.forEach( function( el, i ) {
+				el.addEventListener( 'click', function() { setDemo( this ); } );
+			} );
+
+			function setDemo( el ) {
+				var idx = demos.indexOf( el );
+				if( current !== idx ) {
+					var currentDemo = demos[ current ];
+					currentDemo.className = currentDemo.className.replace(new RegExp("(^|\\s+)" + 'current-demo' + "(\\s+|$)"), ' ');
+				}
+				current = idx;
+				el.className = 'current-demo'; 
+			}
+		</script>
 </body>
 
 </html>
